@@ -41,6 +41,7 @@ const GlobalStyle = createGlobalStyle`
 const colors = {
   background: "#fbfbfb",
   primary: "#85b0c3",
+  primaryDarker: "#7297a7",
   secondary: "#e5e5e5",
   primaryText: "black",
   secondaryText: "white",
