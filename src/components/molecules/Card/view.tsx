@@ -1,5 +1,4 @@
 import { Cat } from "@/src/types/cat";
-import { calculateAge } from "@/src/utils/date";
 import Image from "next/image";
 import React, { FC } from "react";
 import { DeleteIcon } from "../../atoms/icons/Delete";
