@@ -6,6 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
   margin-bottom: 5rem;
+  flex: 1;
 `;
 
 export const ActionContainer = styled.div`
