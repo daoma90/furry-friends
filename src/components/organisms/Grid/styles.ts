@@ -4,8 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  /* margin-top: 5rem; */
+  width: 100%;
   margin-bottom: 5rem;
 `;
 
@@ -13,6 +12,7 @@ export const ActionContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  align-self: flex-end;
 `;
 
 export const StyledGrid = styled.div`
