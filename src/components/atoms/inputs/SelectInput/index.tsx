@@ -13,7 +13,9 @@ const Select: FC<InputProps> = React.forwardRef(({ label, options, ...rest }, re
       <InputLabel>{label}</InputLabel>
       <s.Select ref={ref} {...rest}>
         {options.map((option) => (
-          <s.Option value={option.value}>{option.label}</s.Option>
+          <s.Option key={option.value} value={option.value}>
+            {option.label}
+          </s.Option>
         ))}
       </s.Select>
     </s.InputContainer>

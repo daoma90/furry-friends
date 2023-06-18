@@ -19,7 +19,9 @@ const SortInputView: FC<InputProps> = ({ label, options, onClick, onChange }) =>
       <s.InputContainer>
         <s.Select onChange={onChange}>
           {options.map((option) => (
-            <s.Option value={option.value}>{option.name}</s.Option>
+            <s.Option key={option.value} value={option.value}>
+              {option.name}
+            </s.Option>
           ))}
         </s.Select>
         <s.SortButton onClick={onClick}>
