@@ -6,6 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
   margin-bottom: 5rem;
+  height: 100%;
   flex: 1;
 `;
 
@@ -21,6 +22,8 @@ export const StyledGrid = styled.div`
   grid-template-columns: 1fr;
   gap: 1rem;
   margin-top: 1rem;
+  width: 100%;
+  flex: 1;
 
   ${breakpoints.tablet} {
     grid-template-columns: 1fr 1fr;
