@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "name": "Stretchy",
+    "birthdate": "2023-06-15",
+    "gender": "male",
+    "bio": "Litter box is life love attack feet poop on couch pelt around the house and up and down stairs chasing phantoms stand with legs in litter box, but poop outside. Roll on the floor purring your whiskers off where is my slave? I'm getting hungry. Attack feet mark territory.",
+    "image": "https://images.unsplash.com/photo-1571566882372-1598d88abd90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+  },
+  {
+    "id": 1,
+    "name": "Bunny",
+    "birthdate": "2023-06-16",
+    "gender": "female",
+    "bio": "Chase after silly colored fish toys around the house jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub.",
+    "image": "https://images.unsplash.com/photo-1614142831079-caf6c604a649?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Mr.Cool",
+    "birthdate": "2023-06-17",
+    "gender": "male",
+    "bio": "My water bowl is clean and freshly replenished, so i'll drink from the toilet dead stare with ears cocked but cry louder at reflection so oooo! dangly balls!",
+    "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Snoozy",
+    "birthdate": "2023-06-18",
+    "gender": "female",
+    "bio": "Rub whiskers on bare skin act innocent bite plants hunt anything swat turds around the house bite plants i vomit in the bed in the middle of the night.",
+    "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+  }
+]
