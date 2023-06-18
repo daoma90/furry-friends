@@ -1,3 +1,4 @@
+import { breakpoints } from "@/src/theme";
 import styled from "styled-components";
 
 export const FormContainer = styled.form`
@@ -12,5 +13,10 @@ export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  ${breakpoints.tablet} {
+    gap: 2rem;
+  }
 `;

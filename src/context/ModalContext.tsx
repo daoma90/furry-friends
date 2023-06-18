@@ -31,6 +31,7 @@ export const ModalProvider: FC<ModalProviderProps> = ({ children }) => {
   const [modalType, setModalType] = useState<string>("add");
 
   const openModal = (defaultValues: Cat | null) => {
+    document.querySelector("body")!.style.overflow = "hidden";
     if (defaultValues) {
       setModalType("edit");
     } else {
@@ -41,6 +42,7 @@ export const ModalProvider: FC<ModalProviderProps> = ({ children }) => {
   };
 
   const closeModal = () => {
+    document.querySelector("body")!.style.overflow = "auto";
     setIsOpen(false);
   };
 

@@ -1,3 +1,4 @@
+import { breakpoints } from "@/src/theme";
 import { m } from "framer-motion";
 import styled from "styled-components";
 
@@ -11,4 +12,9 @@ export const ButtonContainer = styled(m.button)`
   padding-right: 2rem;
   cursor: pointer;
   border-radius: 5px;
+  width: 100%;
+
+  ${breakpoints.tablet} {
+    width: auto;
+  }
 `;
