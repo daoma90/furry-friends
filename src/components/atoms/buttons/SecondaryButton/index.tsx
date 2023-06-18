@@ -1,6 +1,5 @@
-import React, { FC } from "react";
-import { ButtonLabel } from "../../typography";
-import * as s from "./styles";
+import React, { FC, useState } from "react";
+import SecondaryButtonView from "./view";
 
 interface ButtonProps {
   label: string;
@@ -8,10 +7,19 @@ interface ButtonProps {
 }
 
 const SecondaryButton: FC<ButtonProps> = ({ label, onClick }) => {
+  const [isHovered, setIsHovered] = useState<boolean>(false);
+
+  const handleSetHovered = (isHovered: boolean) => {
+    setIsHovered(isHovered);
+  };
+
   return (
-    <s.ButtonContainer onClick={onClick}>
-      <ButtonLabel color="primary">{label}</ButtonLabel>
-    </s.ButtonContainer>
+    <SecondaryButtonView
+      label={label}
+      onClick={onClick}
+      isHovered={isHovered}
+      handleSetHovered={handleSetHovered}
+    />
   );
 };
 

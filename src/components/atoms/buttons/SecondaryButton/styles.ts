@@ -1,6 +1,7 @@
+import { m } from "framer-motion";
 import styled from "styled-components";
 
-export const ButtonContainer = styled.button`
+export const ButtonContainer = styled(m.button)`
   border: none;
   background-color: transparent;
   border: 2px solid ${(props) => props.theme.colors.primary};
