@@ -6,12 +6,11 @@ export const sortByName = (array: Array<Cat>) => {
     if (a.name < b.name) {
       return -1;
     }
-    if (a.name < b.name) {
+    if (a.name > b.name) {
       return 1;
     }
     return 0;
   });
-  console.log("sorted", sorted);
   return sorted;
 };
 
@@ -21,11 +20,10 @@ export const sortByGender = (array: Array<Cat>) => {
     if (a.gender < b.gender) {
       return -1;
     }
-    if (a.gender < b.gender) {
+    if (a.gender > b.gender) {
       return 1;
     }
     return 0;
   });
-  console.log("sorted", sorted);
   return sorted;
 };
