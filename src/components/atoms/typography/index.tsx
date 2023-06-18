@@ -1,4 +1,5 @@
 import { inter, norican, sourceSerifPro } from "@/src/theme/fonts";
+import { m } from "framer-motion";
 import styled from "styled-components";
 
 export const Title = styled.h1`
@@ -37,7 +38,7 @@ export const InputLabel = styled.p`
   font-size: 18px;
 `;
 
-export const ButtonLabel = styled.p<{ color: string }>`
+export const ButtonLabel = styled(m.p)<{ color: string }>`
   ${inter.style}
 
   color: ${(props) => props.theme.colors[props.color]};
