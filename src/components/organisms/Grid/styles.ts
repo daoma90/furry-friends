@@ -23,7 +23,6 @@ export const StyledGrid = styled.div`
   gap: 1rem;
   margin-top: 1rem;
   width: 100%;
-  flex: 1;
 
   ${breakpoints.tablet} {
     grid-template-columns: 1fr 1fr;
