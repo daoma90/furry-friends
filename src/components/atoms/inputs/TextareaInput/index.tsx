@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import React, { FC } from "react";
 import { InputLabel } from "../../typography";
 import * as s from "./styles";
