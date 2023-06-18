@@ -6,6 +6,6 @@ export const Container = styled.button`
   height: 300px;
   cursor: pointer;
   border-radius: ${(props) => props.theme.utils.borderRadius};
-  border: 3px solid ${(props) => props.theme.colors.primary};
+  border: 3px solid ${(props) => props.theme.colors.secondary};
   background-color: transparent;
 `;
